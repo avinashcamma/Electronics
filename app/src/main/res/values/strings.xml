@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">OBM</string>
+    <string name="category_type">Type</string>
+    <string name="hint_name">Name of Item</string>
+    <string name="hint_price">Price</string>
+    <string name="category_instock">In Stock</string>
+    <string name="hint_supplier">Supplier</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="aboutme">AboutMe</string>
+    <string name="empty_view_title_text">It\'s a bit lonely here...</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a pet [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding a item</string>
+    <string name="editor_delete_pet_successful">Item Deleted</string>
+    <string name="editor_delete_pet_failed">Error with deleting Item</string>
+    <string name="editor_update_pet_failed">Update Failed</string>
+    <string name="editor_update_pet_successful">Update Successful</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_hint">Search Item</string>
+</resources>

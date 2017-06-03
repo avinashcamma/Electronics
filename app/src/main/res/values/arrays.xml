@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="array_type_option">
+        <item>@string/type_unknown</item>
+        <item>@string/type_ic</item>
+        <item>@string/type_capacitor</item>
+        <item>@string/type_diode</item>
+        <item>@string/type_led</item>
+        <item>@string/type_Resistance</item>
+        <item>@string/type_connector</item>
+    </string-array>
+
+    <string name="type_ic">IC</string>
+    <string name="type_capacitor">Capacitor</string>
+    <string name="type_diode">Diode</string>
+    <string name="type_led">LED</string>
+    <string name="type_Resistance">Resistance</string>
+    <string name="type_connector">Connector</string>
+    <string name="type_unknown">Unknown</string>
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:weightSum="2"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+
+            <TextView
+
+                style="@style/CategoryStyle"
+                android:text="Type"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/tv_type"
+                style="@style/CategoryStyle"
+
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="Name"
+
+                android:textAppearance="?android:textAppearanceMedium" />
+
+
+            <!-- Name field -->
+            <TextView
+                android:id="@+id/tv_name"
+                style="@style/CategoryStyle"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="Price"
+
+                android:textAppearance="?android:textAppearanceMedium" />
+
+
+            <!-- Name field -->
+            <TextView
+                android:id="@+id/tv_price"
+                style="@style/CategoryStyle"
+
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="Instock"
+
+                android:textAppearance="?android:textAppearanceMedium" />
+
+
+            <!-- Name field -->
+            <TextView
+                android:id="@+id/tv_instock"
+                style="@style/CategoryStyle"
+                android:hint="Yes"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="Supplier"
+
+                android:textAppearance="?android:textAppearanceMedium" />
+
+
+            <!-- Name field -->
+            <TextView
+                android:id="@+id/tv_supplier"
+                style="@style/CategoryStyle"
+                android:hint="Abhishek"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
